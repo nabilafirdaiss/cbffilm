@@ -1,4 +1,4 @@
-**Sistem Rekomendasi Film **
+Sistem Rekomendasi Film 
 
 Proyek ini bertujuan untuk membangun sistem rekomendasi film yang dapat menampilkan daftar film yang mirip berdasarkan konten (genre, sinopsis, aktor, sutradara).
 Selain metode klasik TF-IDF + Cosine Similarity, repositori ini juga mencakup implementasi deep learning menggunakan LSTM sebagai pembanding.
