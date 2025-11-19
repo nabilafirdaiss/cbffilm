@@ -1,4 +1,4 @@
-🎬 Sistem Rekomendasi Film | Content-Based Filtering + TF-IDF + Cosine Similarity + LSTM
+🎬 # Sistem Rekomendasi Film | Content-Based Filtering + TF-IDF + Cosine Similarity + LSTM
 
 Repository ini berisi proyek Tugas Akhir dengan judul:
 “Sistem Rekomendasi Film Menggunakan Content-Based Filtering dengan Pendekatan TF-IDF, Cosine Similarity, dan Implementasi Deep Learning (LSTM)”.
