@@ -1,24 +1,14 @@
-Sistem Rekomendasi Film 
+**Sistem Rekomendasi Film Berbasis Konten Semantik**
+✨ Pendahuluan
+MovieVerse adalah proyek Content-Based Filtering (CBF) yang berevolusi dari metode statistik tradisional (TF-IDF) hingga model Deep Learning modern (S-BERT / Sentence-BERT) untuk memberikan rekomendasi film yang sangat akurat.
 
-Proyek ini bertujuan untuk membangun sistem rekomendasi film yang dapat menampilkan daftar film yang mirip berdasarkan konten (genre, sinopsis, aktor, sutradara).
-Selain metode klasik TF-IDF + Cosine Similarity, repositori ini juga mencakup implementasi deep learning menggunakan LSTM sebagai pembanding.
+Tujuan utama proyek ini adalah memecahkan masalah klasik dalam CBF: bagaimana cara membandingkan input preferensi pengguna yang singkat ("Action, Matt Damon, Nolan") dengan konten film yang panjang (Sinopsis). Kami membuktikan bahwa S-BERT adalah solusi paling efektif untuk menghasilkan representasi vektor yang kaya semantik.
 
-📌 Fitur Utama
-1. Content-Based Filtering (CBF)
+💡 Fitur Unggulan
+Pembaruan Generasi Vektor: Menggantikan TF-IDF, Word2Vec, dan LSTM dengan S-BERT untuk vektorisasi sinopsis dan profil pengguna.
 
-Menggabungkan beberapa fitur film (genre, sinopsis, aktor, sutradara).
+Rekomendasi Semantik: Menggunakan Cosine Similarity pada S-BERT Embeddings untuk menemukan film yang paling mirip makna kontekstualnya dengan preferensi pengguna.
 
-Menggunakan TF-IDF dan Word2Vec untuk ekstraksi fitur teks.
+Perbandingan Eksperimental: Mencakup analisis mendalam mengenai performa dan keterbatasan dari empat metode: TF-IDF, Word2Vec, LSTM, dan S-BERT.
 
-Menggunakan Cosine Similarity untuk mengukur kemiripan antarfilm.
-
-Menghasilkan daftar rekomendasi film paling mirip.
-
-2. Implementasi Deep Learning (LSTM)
-
-Mengubah sinopsis film menjadi vektor embedding menggunakan LSTM.
-
-Menghasilkan latent representation film versi deep learning.
-
-Mengukur kemiripan antarfilm menggunakan cosine similarity.
-
+Skalabilitas: Menggunakan dense vector untuk perhitungan similarity yang efisien.
