@@ -1,4 +1,6 @@
 **Sistem Rekomendasi Film Berbasis Konten Semantik**
+
+
 ✨ Pendahuluan
 MovieVerse adalah proyek Content-Based Filtering (CBF) yang berevolusi dari metode statistik tradisional (TF-IDF) hingga model Deep Learning modern (S-BERT / Sentence-BERT) untuk memberikan rekomendasi film yang sangat akurat.
 
